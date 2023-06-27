@@ -1,6 +1,6 @@
 let fibArray = [1, 2];
-let index = 0;
-let num = 0;
+let index: number = 0;
+let num: number = 0;
 while (num < 4000000) {
   num = fibArray[index] + fibArray[index + 1];
   fibArray.push(num);
