@@ -1,0 +1,1 @@
+hyperfine --runs 50 --export-markdown benchmark.md  'python3 main.py' './go_binary' 'node main.js'
